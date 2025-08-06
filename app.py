@@ -12,6 +12,7 @@ sentiment_pipeline = load_model()
 st.set_page_config(page_title="Sentiment Analyzer", layout="centered")
 st.title("🎬 Movie Review Sentiment Analyzer")
 st.write("Enter a movie review or any text, and the model will predict sentiment (1 to 5 stars).")
+st.write("🌍 This model supports multiple languages including **English**, **Dutch**, **German**, **French**, **Italian**, and **Spanish**.")
 
 # User input
 user_input = st.text_area("Enter your review here:", height=150)
